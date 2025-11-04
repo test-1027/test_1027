@@ -3,7 +3,7 @@ name: path-filter
 on:
     push:
         paths:
-            - 'my-app/*'
+            - 'my-app/**'
 
 jobs:
     path-filter:
